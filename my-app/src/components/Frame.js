@@ -9,20 +9,37 @@ import meow1 from '../fiji-meow-02.wav';
 import meow2 from '../cat-1-meow.mp3'
 
 const Frame = () => {
-  // const [titleVisibility, setTitleVisibilty] = useState('show-title');
 
-  const makeMeow1 = (event) => {
+  const callCat1 = (event) => {
     const catMeow1 = new Audio(meow1);
     catMeow1.play();
+    walkForward(catSprite1);
   }
-  const makeMeow2 = (event) => {
+
+  const callCat2 = (event) => {
     const catMeow2 = new Audio(meow2);
     catMeow2.play();
+    walkForward(catSprite2);
   }
-  const makeTrill = (event) => {
+
+  const callCat3 = (event) => {
     const catTrill = new Audio(trill);
     catTrill.play();
+    walkForward(catSprite3);
   }
+
+  const callCat4 = (event) => {
+    const catMeow1 = new Audio(meow1);
+    catMeow1.play();
+    walkForward(catSprite4);
+  }
+
+  const callCat5 = (event) => {
+    const catTrill = new Audio(trill);
+    catTrill.play();
+    walkForward(catSprite5);
+  }
+
   const catSprite1 = useRef(null);
   const catSprite2 = useRef(null);
   const catSprite3 = useRef(null);
@@ -30,21 +47,27 @@ const Frame = () => {
   const catSprite5 = useRef(null);
   const titleCard = useRef(null);
 
-  const moveCat = (cat) => {
+  const walkForward = (cat) => {
+    cat.current.style.position = 'absolute';
+    cat.current.style.transition = 'transform 4000ms';
+    cat.current.style.transformBox =	'content-box';
+    cat.current.style.transform = 'translate(0, 180%)';
+    // cat.current.style.transform = 'translateY(125px)';
+  }
+
+  const positionCat = (cat) => {
     cat.current.style.position = 'absolute';
     cat.current.style.top = Math.floor(Math.random()*(80 - 40) + 40)+'%';
     cat.current.style.left = Math.floor(Math.random()*55+10)+'%';
   }
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     moveCat(catSprite1);
-  //     moveCat(catSprite2);
-  //     moveCat(catSprite3);
-  //     moveCat(catSprite4);
-  //     moveCat(catSprite5);
-  //   }, 1000);
-  //   return () => clearInterval(interval);
-  // }, []);
+
+  useEffect(() => {
+      positionCat(catSprite1);
+      positionCat(catSprite2);
+      positionCat(catSprite3);
+      positionCat(catSprite4);
+      positionCat(catSprite5);
+  }, []);
 
   const playGame = () => {
     titleCard.current.style.display = 'none';
@@ -57,23 +80,22 @@ const Frame = () => {
         <h2 onClick={playGame}>Play</h2>
       </div>
       <div className="frame">
-        <div className="rrs-container" ref={catSprite1} onClick={makeMeow1}>
+        <div className="rrs-container cat1" ref={catSprite1} onClick={callCat1}>
           <Cat1 />
         </div>
-        <div className="rrs-container" ref={catSprite2} onClick={makeMeow2}>
+        <div className="rrs-container" ref={catSprite2} onClick={callCat2}>
           <Cat2 />
         </div>
-        <div className="rrs-container" ref={catSprite3} onClick={makeTrill}>
+        <div className="rrs-container" ref={catSprite3} onClick={callCat3}>
           <Cat3 />
         </div>
-        <div className="rrs-container" ref={catSprite4} onClick={makeTrill}>
+        <div className="rrs-container" ref={catSprite4} onClick={callCat4}>
           <Cat4 />
         </div>
-        <div className="rrs-container" ref={catSprite5} onClick={makeMeow1}>
+        <div className="rrs-container" ref={catSprite5} onClick={callCat5}>
           <Cat5 />
         </div>
       </div>
-      {/* <button onClick={moveCat}>Move Creme Cat</button> */}
     </div>
   )
 }
