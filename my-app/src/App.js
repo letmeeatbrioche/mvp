@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Frame />
-      <button onClick={playMusic}>Play Music</button>
+      <button className="button-45" onClick={playMusic}>Play Music</button>
     </div>
   );
 }
