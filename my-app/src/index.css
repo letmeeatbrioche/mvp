@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(253,237,233,1);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: Lato;
+  font-size: 16px;
+  text-align: center;
+}
+
+small {
+  font-size: 12px;
+}
+
+hr {
+  width: 90%;
+}
+
+button {
+  margin: 5px;
+}
+
+.frame {
+  position: absolute;
+  height: 600px;
+  width: 800px;
+  top: 12%;
+  left: 24%;
+  border: 2px solid #006100;
+  border-radius: 5px;
+  background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.rrs-container {
+  /* margin: 0 auto; */
+  position: relative;
+  top: 83%;
+  /* left: 45%; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-image: ; */
+  cursor: pointer;
+}
+
+.my-element__class--style {
+  width: 20%;
+}
+
+.react-responsive-spritesheet-container {
+  width: 50px;
+  height: 50px;
+}
+
+.centered-element {
+
+}
+
