@@ -1,46 +1,58 @@
 # mvp
 
-# Itty Bitty Kitty Committy ??? Cat Flat ??? #
+# Working title:  Itty Bitty Kitty Committy ??? Cat Flat ??? #
 
-<!-- 
-> This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
+# Catchy headline / cool graphic
 
-There is an approach called "working backwards" that is widely used at Amazon. They work backwards from the customer, rather than starting with an idea for a product and trying to bolt customers onto it. While working backwards can be applied to any specific product decision, using this approach is especially important when developing new products or features.
+# Who are the contributors (names should link to their github or portfolio page)
 
-For new initiatives a product manager typically starts by writing an internal press release announcing the finished product. The target audience for the press release is the new/updated product's customers, which can be retail customers or internal users of a tool or technology. Internal press releases are centered around the customer problem, how current solutions (internal or external) fail, and how the new product will blow away existing solutions.
+# Introduction
+This project was a brief 1-week sprint where our team tried to complete an MVP for an external user (Jane Doe)
+* Add any additional content here pertaining to the timeline, any personal goals, etc.
 
-If the benefits listed don't sound very interesting or exciting to customers, then perhaps they're not (and shouldn't be built). Instead, the product manager should keep iterating on the press release until they've come up with benefits that actually sound like benefits. Iterating on a press release is a lot less expensive than iterating on the product itself (and quicker!).
+# What does the app do?
+* What problem does it solve? Who uses it?
+* Why was it built?
+* User Inputs and Outputs
+*
 
-If the press release is more than a page and a half, it is probably too long. Keep it simple. 3-4 sentences for most paragraphs. Cut out the fat. Don't make it into a spec. You can accompany the press release with a FAQ that answers all of the other business or execution questions so the press release can stay focused on what the customer gets. My rule of thumb is that if the press release is hard to write, then the product is probably going to suck. Keep working at it until the outline for each paragraph flows. 
+# Tech stack ( you can include logos)
 
-Oh, and I also like to write press-releases in what I call "Oprah-speak" for mainstream consumer products. Imagine you're sitting on Oprah's couch and have just explained the product to her, and then you listen as she explains it to her audience. That's "Oprah-speak", not "Geek-speak".
+# Technical Challenges and research that you anticipated
+* Why, what was the plan to overcome those challenges?
+* What did you learn?
 
-Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
- -->
- 
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+# Challenges that were unexpected
+* Why was it a challenge
+* What did you learn?
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+# Video Demo / Screen shot walkthrough of the app
+* What were the user stories /  what was MVP (mention Minimal Viable Product)
 
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+# How does the app work?
+* What happens behind the scenes when the user interacts with it?
+* OR What are all the places the data travels?  What happens to that data?
+* Optionally include a diagram
+* How does the tech stack come together?
 
-## Problem ##
-  > Describe the problem your product solves.
+# What research was required?
 
-## Solution ##
-  > Describe how your product elegantly solves the problem.
+# Workflow and Key lessons from your team - specifically those related to: Agile, CI/CD, testing, working with external stakeholders, ticketing, and user stories.
+* Your git workflow, style guides, commit guides, etc
+* What did you learn from the process
+* What were key takeaways from stand ups, code reviews, etc
+* Writing tests
+* Link to your trello board, discuss completed tickets
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+# Any non-MVP tickets (optional)
+* Code refactorings
+* Performance Optimizations
+* Additional features
+* etc
 
-## How to Get Started ##
-  > Describe how easy it is to get started.
+# Notes from your Sprint Retro
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+# What additional features do you plan to add, how do you plan to implement those features?
+* Future refactoring?
+* Additional dev ops considerations?
+* UI/UX additions?
