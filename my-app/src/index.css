@@ -32,20 +32,23 @@ button {
 h1, h2 {
   font-size: 5em;
   position: relative;
-  top: 10%;
+  top: 20%;
   color: rgba(255, 197, 188, 1);
   -webkit-text-stroke: 1px red;
 }
 
 h2 {
-  top: 15%;
+  position: relative;
+  top: 25%;
   font-size: 4em;
+  border: 5px dotted red;
 }
 
 h2:hover {
   -webkit-text-stroke: 2px red;
   text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
   cursor: pointer;
+  background-color: rgba(255, 197, 188, 0.3);
 }
 
 .title {
