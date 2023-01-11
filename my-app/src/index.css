@@ -43,17 +43,19 @@ button {
   width: 800px; */
   height: 658px;
   width: 730px;
-  top: 12%;
+  top: 10%;
   left: 24%;
   border: 2px solid #006100;
   border-radius: 5px;
   /* background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp'); */
-  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/afcdf625-d9a0-44d1-bd2a-847333257905/d9wj5b4-163915a7-e909-44db-8c54-98bb006e062e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FmY2RmNjI1LWQ5YTAtNDRkMS1iZDJhLTg0NzMzMzI1NzkwNVwvZDl3ajViNC0xNjM5MTVhNy1lOTA5LTQ0ZGItOGM1NC05OGJiMDA2ZTA2MmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ycyQ1m5NfT3S1_3_R5GdWKLBO3NKZLRBmTUgMmsSziA');
+  background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/teal-pixel-room.png');
+  /* background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/afcdf625-d9a0-44d1-bd2a-847333257905/d9wj5b4-163915a7-e909-44db-8c54-98bb006e062e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FmY2RmNjI1LWQ5YTAtNDRkMS1iZDJhLTg0NzMzMzI1NzkwNVwvZDl3ajViNC0xNjM5MTVhNy1lOTA5LTQ0ZGItOGM1NC05OGJiMDA2ZTA2MmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ycyQ1m5NfT3S1_3_R5GdWKLBO3NKZLRBmTUgMmsSziA'); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 20px;
 
 }
 
@@ -62,8 +64,8 @@ button {
   width: 32px;
   /* margin: 0 auto; */
   position: relative;
-  top: 83%;
-  /* left: 45%; */
+  top: 62%;
+  left: 28%;
   /* transform: translate(-50%, -50%); */
   display: flex;
   flex-direction: column;
