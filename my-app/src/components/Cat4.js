@@ -13,8 +13,8 @@ const Cat4 = () => {
       autoplay={true}
       loop={true}
       direction={'forward'}
-      startAt={13}
-      endAt={16}
+      startAt={56}
+      endAt={63}
     />
   )
 }

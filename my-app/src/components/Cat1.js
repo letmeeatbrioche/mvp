@@ -9,12 +9,12 @@ const Cat1 = ({ catFrames }) => {
       widthFrame={32}
       heightFrame={32}
       steps={79}
-      fps={5}
+      fps={3}
       autoplay={true}
       loop={true}
       direction={'forward'}
-      startAt={29} // walk forward 29
-      endAt={32} // walk forward 32
+      startAt={0}
+      endAt={2}
     />
   )
 }
