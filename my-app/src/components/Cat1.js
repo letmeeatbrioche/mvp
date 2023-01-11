@@ -2,7 +2,7 @@ import React from 'react';
 import Spritesheet from 'react-responsive-spritesheet';
 import cremecat from '../Spritesheets/creme_000.png';
 
-const Cat1 = () => {
+const Cat1 = ({ catFrames }) => {
   return (
     <Spritesheet
       image={cremecat}
@@ -13,8 +13,8 @@ const Cat1 = () => {
       autoplay={true}
       loop={true}
       direction={'forward'}
-      startAt={13}
-      endAt={16}
+      startAt={29} // walk forward 29
+      endAt={32} // walk forward 32
     />
   )
 }
