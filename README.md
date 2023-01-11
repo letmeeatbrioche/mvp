@@ -1,6 +1,6 @@
 # mvp
 
-# Working title:  Itty Bitty Kitty Committy ??? Cat Flat ??? #
+# Kitty Committy
 
 # Catchy headline / cool graphic
 
