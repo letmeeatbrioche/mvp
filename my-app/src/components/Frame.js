@@ -16,20 +16,20 @@ const Frame = () => {
   }
   return (
     <div className="App">
-      <div className="frame" onClick={makeSound}>
-        <div className="rrs-container">
+      <div className="frame">
+        <div className="rrs-container" onClick={makeSound}>
           <Cat1 />
         </div>
-        <div className="rrs-container">
+        <div className="rrs-container" onClick={makeSound}>
           <Cat2 />
         </div>
-        <div className="rrs-container">
+        <div className="rrs-container" onClick={makeSound}>
           <Cat3 />
         </div>
-        <div className="rrs-container">
+        <div className="rrs-container" onClick={makeSound}>
           <Cat4 />
         </div>
-        <div className="rrs-container">
+        <div className="rrs-container" onClick={makeSound}>
           <Cat5 />
         </div>
       </div>
