@@ -52,7 +52,7 @@ const Frame = () => {
 
   return (
     <div className="App">
-      <div className="title">
+      <div className="title" ref={titleCard}>
         <h1>Kitty Committy</h1>
         <h2 onClick={playGame}>Play</h2>
       </div>
