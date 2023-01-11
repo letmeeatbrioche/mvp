@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Cat1 from './Cat1';
 import Cat2 from './Cat2';
 import Cat3 from './Cat3';
@@ -9,6 +9,8 @@ import meow1 from '../fiji-meow-02.wav';
 import meow2 from '../cat-1-meow.mp3'
 
 const Frame = () => {
+  // const [titleVisibility, setTitleVisibilty] = useState('show-title');
+
   const makeMeow1 = (event) => {
     const catMeow1 = new Audio(meow1);
     catMeow1.play();
@@ -26,6 +28,7 @@ const Frame = () => {
   const catSprite3 = useRef(null);
   const catSprite4 = useRef(null);
   const catSprite5 = useRef(null);
+  const titleCard = useRef(null);
 
   const moveCat = (cat) => {
     cat.current.style.position = 'absolute';
@@ -43,11 +46,15 @@ const Frame = () => {
   //   return () => clearInterval(interval);
   // }, []);
 
+  const playGame = () => {
+    titleCard.current.style.display = 'none';
+  }
+
   return (
     <div className="App">
       <div className="title">
         <h1>Kitty Committy</h1>
-        <h2>Play</h2>
+        <h2 onClick={playGame}>Play</h2>
       </div>
       <div className="frame">
         <div className="rrs-container" ref={catSprite1} onClick={makeMeow1}>
@@ -66,7 +73,7 @@ const Frame = () => {
           <Cat5 />
         </div>
       </div>
-      <button onClick={moveCat}>Move Creme Cat</button>
+      {/* <button onClick={moveCat}>Move Creme Cat</button> */}
     </div>
   )
 }
