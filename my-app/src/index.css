@@ -21,13 +21,13 @@ body {
   box-sizing: border-box;
 }
 
-hr {
+/* hr {
   width: 90%;
-}
+} */
 
-button {
+/* button {
   margin: 5px;
-}
+} */
 
 h1, h2 {
   font-size: 5em;
@@ -175,4 +175,13 @@ button {
   background-color: red;
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
   color: #FFFFFF;
+}
+
+p {
+  font-size: 0.1em;
+}
+
+input {
+  width: 32px;
+  height: 16px;
 }
