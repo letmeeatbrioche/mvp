@@ -9,8 +9,14 @@ import meow1 from '../fiji-meow-02.wav';
 import meow2 from '../cat-1-meow.mp3';
 import meow3 from '../kitten22meow.wav';
 import meow4 from '../meow-6.wav';
+import bgMusic from '../half quieter - Frederic_Lardon_feat_Laura_Palme_-_01_-_Dans_la_dtente_au_magasin_de_sport (mp3cut.net).mp3';
 
 const Frame = () => {
+  const playMusic = () => {
+    const music = new Audio(bgMusic);
+    music.loop = true;
+    music.play();
+  }
 
   const callCat1 = (event) => {
     const catMeow1 = new Audio(meow1);
@@ -68,6 +74,7 @@ const Frame = () => {
 
   const playGame = () => {
     titleCard.current.style.display = 'none';
+    playMusic();
   }
 
   return (
