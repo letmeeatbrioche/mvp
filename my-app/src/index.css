@@ -44,7 +44,7 @@ button {
   height: 658px;
   width: 730px;
   top: 10%;
-  left: 24%;
+  left: 26%;
   border: 2px solid #006100;
   border-radius: 5px;
   /* background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp'); */
@@ -64,7 +64,7 @@ button {
   width: 32px;
   /* margin: 0 auto; */
   position: relative;
-  top: 62%;
+  top: 61%;
   left: 28%;
   /* transform: translate(-50%, -50%); */
   display: flex;
