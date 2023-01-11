@@ -60,7 +60,7 @@ h2:hover {
   width: 620px;
   top: 13%;
   left: 28%;
-  border: 2px solid #006100;
+  border: 2px solid turquoise;
   border-radius: 10px;
   background-color: rgba(255,255,255,0.9);
   z-index: 1;
@@ -78,7 +78,7 @@ h2:hover {
   width: 620px;
   top: 13%;
   left: 28%;
-  border: 2px solid #006100;
+  border: 2px solid turquoise;
   border-radius: 10px;
   /* background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp'); */
   background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/teal-pixel-room.png');
@@ -115,7 +115,7 @@ h2:hover {
 button {
   position: absolute;
   top: 4%;
-  left: 45%;
+  left: 44%;
 }
 
 /* CSS */
@@ -163,7 +163,7 @@ button {
 
 .button-45:hover {
   background-color: #FFE3E3;
-  border-color: #FAA4A4;
+  border-color: turquoise;
 }
 
 .button-45:active:hover,
