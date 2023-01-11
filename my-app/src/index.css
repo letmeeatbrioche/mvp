@@ -41,10 +41,14 @@ button {
   position: absolute;
   /* height: 600px;
   width: 800px; */
-  height: 658px;
-  width: 730px;
-  top: 10%;
-  left: 26%;
+  /* height: 658px;
+  width: 730px; */
+  /* height: 591px;
+  width: 657px; */
+  height: 558px;
+  width: 620px;
+  top: 13%;
+  left: 28%;
   border: 2px solid #006100;
   border-radius: 5px;
   /* background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp'); */
