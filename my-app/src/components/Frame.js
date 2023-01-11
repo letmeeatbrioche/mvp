@@ -45,6 +45,10 @@ const Frame = () => {
 
   return (
     <div className="App">
+      <div className="title">
+        <h1>Kitty Committy</h1>
+        <h2>Play</h2>
+      </div>
       <div className="frame">
         <div className="rrs-container" ref={catSprite1} onClick={makeMeow1}>
           <Cat1 />
