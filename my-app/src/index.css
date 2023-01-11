@@ -6,27 +6,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(253,237,233,1);
+  font-family: 'Lilita One', cursive;
+  font-family: 'Short Stack', cursive;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-p {
-  font-family: Lato;
-  font-size: 16px;
-  text-align: center;
-}
-
-small {
-  font-size: 12px;
 }
 
 hr {
@@ -35,6 +27,43 @@ hr {
 
 button {
   margin: 5px;
+}
+
+h1, h2 {
+  font-size: 5em;
+  position: relative;
+  top: 10%;
+  color: rgba(255, 197, 188, 1);
+  -webkit-text-stroke: 1px red;
+}
+
+h2 {
+  top: 15%;
+  font-size: 4em;
+}
+
+h2:hover {
+  -webkit-text-stroke: 2px red;
+  text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  /* height: 600px;
+  width: 800px; */
+  /* height: 658px;
+  width: 730px; */
+  /* height: 591px;
+  width: 657px; */
+  height: 558px;
+  width: 620px;
+  top: 13%;
+  left: 28%;
+  border: 2px solid #006100;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 1;
 }
 
 .frame {
