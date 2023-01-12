@@ -179,6 +179,8 @@ button {
 
 p {
   font-size: 0.5em;
+  background-color: rgba(253,237,233,0.7);
+  border-radius: 3px;
 }
 
 input {
