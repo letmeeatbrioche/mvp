@@ -187,6 +187,27 @@ const Frame = () => {
     .catch((err) => console.log(`Error adding cat name to database ==>`, err))
   }
 
+  const getRandomNames = (event) => {
+    event.preventDefault();
+    axios.get('http://localhost:3001/cats/names')
+    .then((names) => {
+      setCat1Name(names.data[0]);
+      setCat2Name(names.data[1]);
+      setCat3Name(names.data[2]);
+      setCat4Name(names.data[3]);
+      setCat5Name(names.data[4]);
+      return true;
+    })
+    .then((state) => {
+      setCat1NameSubmitted(state);
+      setCat2NameSubmitted(state);
+      setCat3NameSubmitted(state);
+      setCat4NameSubmitted(state);
+      setCat5NameSubmitted(state);
+    })
+    .catch((err) => console.log(`Error getting cat names ==>`, err))
+  }
+
   return (
     <div className="App">
       <div className="title" ref={titleCard}>
@@ -246,6 +267,7 @@ const Frame = () => {
         </div>
 
       </div>
+      <button className="button-45" onClick={getRandomNames}>Generate Random Names</button>
     </div>
   )
 }
