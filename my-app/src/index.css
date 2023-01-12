@@ -62,7 +62,7 @@ h2:hover {
   height: 558px;
   width: 620px;
   top: 13%;
-  left: 28%;
+  left: 29%;
   border: 2px solid turquoise;
   border-radius: 10px;
   background-color: rgba(255,255,255,0.9);
@@ -80,7 +80,7 @@ h2:hover {
   height: 558px;
   width: 620px;
   top: 13%;
-  left: 28%;
+  left: 29%;
   border: 2px solid turquoise;
   border-radius: 10px;
   /* background: url('/home/itsnothalley/hackreactor/mvp/my-app/src/2450479471e30f24eda1588575d3bf24.webp'); */
@@ -117,8 +117,8 @@ h2:hover {
 
 button {
   position: absolute;
-  top: 4%;
-  left: 44%;
+  top: 85%;
+  left: 41%;
 }
 
 /* CSS */
