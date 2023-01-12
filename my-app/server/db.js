@@ -15,15 +15,4 @@ const catsSchema = new mongoose.Schema({
 
 const Cat = mongoose.model('Cat', catsSchema);
 
-async function getAllCats() {
-  try {
-    let cats = await Cat.find({})
-    console.log('cats:', cats);
-  } catch(err) {
-    console.log('Error getting all tests from database ==>', err);
-  }
-}
-
-getAllCats();
-
 module.exports = Cat;
