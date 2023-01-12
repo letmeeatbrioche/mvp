@@ -1,7 +1,8 @@
+require('dotenv').config()
 const mongoose = require('mongoose');
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/test');
+  await mongoose.connect(`mongodb://${process.env.DBHOST}:${process.env.DBPORT}/test`);
 }
 
 main()
@@ -16,13 +17,13 @@ const Test = mongoose.model('Test', testSchema);
 
 async function add() {
   try {
-    await Test.create({name: 'this is test 1'});
+    await Test.create({name: 'this is test 3'});
   } catch(err) {
-    console.log('Error adding FIRST TEST to database ==>', err);
+    console.log('Error adding THIRD TEST to database ==>', err);
   } try {
-    await Test.create({name: 'this is TEST 2'});
+    await Test.create({name: 'this is TEST 4'});
   } catch(err) {
-    console.log('Error adding SECOND TEST to database ==>', err);
+    console.log('Error adding FOURTH TEST to database ==>', err);
   } try {
     let tests = await Test.find({});
     console.log('All tests:', tests);
