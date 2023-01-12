@@ -13,8 +13,8 @@ const Cat5 = () => {
       autoplay={true}
       loop={true}
       direction={'forward'}
-      startAt={13}
-      endAt={16}
+      startAt={71}
+      endAt={85}
     />
   )
 }
