@@ -1,6 +1,6 @@
 # 🐱 Kitty Committy 🐱
 
-## 🎥 Watch your cats practice for the big recital! 💃
+## 👀 Watch your cats practice for the big recital! 💃
 
 ## Introduction
 This a project where I was tasked with creating a full-stack application over three non-full days.
