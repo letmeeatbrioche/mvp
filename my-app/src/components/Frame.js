@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import axios from 'axios';
 import Cat1 from './Cat1';
 import Cat2 from './Cat2';
 import Cat3 from './Cat3';
@@ -35,7 +36,7 @@ const Frame = () => {
   const playMusic = () => {
     const music = new Audio(bgMusic);
     music.loop = true;
-    music.play();
+    // music.play();
   }
 
   const callCat1 = (event) => {
@@ -105,6 +106,7 @@ const Frame = () => {
     event.preventDefault();
     setCat1NameSubmitted(true);
     setChangeCat1Name(false);
+    postCats(cat1Name);
   }
 
   const handleCat1InputChange = (event) => {
@@ -121,6 +123,7 @@ const Frame = () => {
     event.preventDefault();
     setCat2NameSubmitted(true);
     setChangeCat2Name(false);
+    postCats(cat2Name);
   }
 
   const handleCat2InputChange = (event) => {
@@ -137,6 +140,7 @@ const Frame = () => {
     event.preventDefault();
     setCat3NameSubmitted(true);
     setChangeCat3Name(false);
+    postCats(cat3Name);
   }
 
   const handleCat3InputChange = (event) => {
@@ -153,6 +157,7 @@ const Frame = () => {
     event.preventDefault();
     setCat4NameSubmitted(true);
     setChangeCat4Name(false);
+    postCats(cat4Name);
   }
 
   const handleCat4InputChange = (event) => {
@@ -169,10 +174,17 @@ const Frame = () => {
     event.preventDefault();
     setCat5NameSubmitted(true);
     setChangeCat5Name(false);
+    postCats(cat5Name);
   }
 
   const handleCat5InputChange = (event) => {
     setCat5Name(event.target.value);
+  }
+
+  const postCats = (catName) => {
+    axios.post('http://localhost:3001/cats', {name: catName})
+    .then(() => console.log(`Successfully added cat name as "${catName}"`))
+    .catch((err) => console.log(`Error adding cat name to database ==>`, err))
   }
 
   return (
