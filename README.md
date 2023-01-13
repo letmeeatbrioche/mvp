@@ -31,7 +31,7 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * I learned that it would probably have been more beneficial to research what I wanted to do with the tech stack I was planning to use. I think then I would have been pointed in the right direction faster from the very beginning.
 
 ## Video Demo / Screen shot walkthrough of the app
-## [[[[[[INSERT DEMO HERE ]]]]]]]
+## [[[[[[INSERT DEMO HERE ]]]]]]
 * The minimum viable product that I was able to complete was an app in which the user could watch individual cat sprites animate in a dancey sort of way.
 * The user story from that became the user being the head of the Kitty Committy where the cats are practicing their choreographed dance routines before a recital.
 * The user can then give the cats names through their own input or random ones.
@@ -42,7 +42,11 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * When a user double-clicks on a cat, they are able to submit a name for that cat. The name is then saved to the database via the back-end server.
 * When a user clicks the "Generate Random Names" button, the server gets 5 random names from the database and those names are then assigned to a cat. If a user submits a name, it has a chance of showing up again and assigned to a random cat.
 
-# What research was required?
+## 📚 What research was required?
+* Assets to use
+* How to use spritesheets in Javascript
+* How to animate sprites from spritesheets
+* How to add audio to a Javascript file, play, and loop it
 
 # Workflow and Key lessons from your team - specifically those related to: Agile, CI/CD, testing, working with external stakeholders, ticketing, and user stories.
 * Your git workflow, style guides, commit guides, etc
@@ -51,15 +55,14 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * Writing tests
 * Link to your trello board, discuss completed tickets
 
-# Any non-MVP tickets (optional)
-* Code refactorings
-* Performance Optimizations
-* Additional features
-* etc
-
-# Notes from your Sprint Retro
-
-# What additional features do you plan to add, how do you plan to implement those features?
-* Future refactoring?
-* Additional dev ops considerations?
-* UI/UX additions?
+## What additional features do you plan to add, how do you plan to implement those features?
+* Random sprite movement across an area with walking animations
+* Click interation to change the cats' animations
+* Saving of users and their cats and cats' names
+* User choice of cat(s) and how many
+* User choice of room or room color - user can change room later
+* Specific cat sounds based on the specific cat
+* Cat sounds differ at random within the sounds specified by the particular cat, or based on the specific user interation
+* Toggle background music
+* Cats have different idle animations based on the specific cat
+* Cats sleep with sleep animations randomly and wake up after some time & click to wake up cat function
