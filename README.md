@@ -55,7 +55,7 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * Writing tests
 * Link to your trello board, discuss completed tickets
 
-## What additional features do you plan to add, how do you plan to implement those features?
+## ➕ What additional features do you plan to add, how do you plan to implement those features?
 * Random sprite movement across an area with walking animations
 * Click interation to change the cats' animations
 * Saving of users and their cats and cats' names
