@@ -36,7 +36,7 @@ const Frame = () => {
   const playMusic = () => {
     const music = new Audio(bgMusic);
     music.loop = true;
-    // music.play();
+    music.play();
   }
 
   const callCat1 = (event) => {
