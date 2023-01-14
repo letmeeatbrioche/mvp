@@ -48,13 +48,6 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * How to animate sprites from spritesheets
 * How to add audio to a Javascript file, play, and loop it
 
-# Workflow and Key lessons from your team - specifically those related to: Agile, CI/CD, testing, working with external stakeholders, ticketing, and user stories.
-* Your git workflow, style guides, commit guides, etc
-* What did you learn from the process
-* What were key takeaways from stand ups, code reviews, etc
-* Writing tests
-* Link to your trello board, discuss completed tickets
-
 ## ➕ What additional features do you plan to add, how do you plan to implement those features?
 * Random sprite movement across an area with walking animations
 * Click interation to change the cats' animations
