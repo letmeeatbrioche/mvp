@@ -30,7 +30,7 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * Moving sprites across the screen with their respective walking animations. I was using purely Javascript and React to implement this app, and I didn't anticipate the movement from point A to point B to be as challenging as it was. It was challenging enough that I had to stop and pivot my app to do something else because I was spending so much time on it.
 * I learned that it would probably have been more beneficial to research what I wanted to do with the tech stack I was planning to use. I think then I would have been pointed in the right direction faster from the very beginning.
 
-## Video Demo / Screen shot walkthrough of the app
+## 📼 Video Demo / Screen shot walkthrough of the app
 ## [[[[[[INSERT DEMO HERE ]]]]]]
 * The minimum viable product that I was able to complete was an app in which the user could watch individual cat sprites animate in a dancey sort of way.
 * The user story from that became the user being the head of the Kitty Committy where the cats are practicing their choreographed dance routines before a recital.
