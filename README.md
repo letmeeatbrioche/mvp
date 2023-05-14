@@ -31,7 +31,9 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * I learned that it would probably have been more beneficial to research what I wanted to do with the tech stack I was planning to use. I think then I would have been pointed in the right direction faster from the very beginning.
 
 ## 📼 Video Demo / Screen shot walkthrough of the app
-## [[[[[[INSERT DEMO HERE ]]]]]]
+<img src="https://github.com/letmeeatbrioche/mvp/assets/87157356/7e0c97c5-9e54-41f1-b728-1b0cb9839bcf" width="700" height="600"/>
+
+<img src="https://github.com/letmeeatbrioche/mvp/assets/87157356/084687a3-cff5-4a81-8910-2f7b3d5bea10" width="700" height="600"/>
 * The minimum viable product that I was able to complete was an app in which the user could watch individual cat sprites animate in a dancey sort of way.
 * The user story from that became the user being the head of the Kitty Committy where the cats are practicing their choreographed dance routines before a recital.
 * The user can then give the cats names through their own input or random ones.
