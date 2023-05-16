@@ -42,6 +42,8 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 
 <img src="https://github.com/letmeeatbrioche/mvp/assets/87157356/dc576590-7a10-41a3-900c-0de9a5111e55" width="700" height="600"/>
 
+<img src="https://github.com/letmeeatbrioche/mvp/assets/87157356/7674e7fe-14b4-4120-b91f-c6d040eeec73" width="700" height="600"/>
+
 ## ⚙ How does the app work?
 * The cats are loaded from a sprite sheet with looping animations.
 * When a user double-clicks on a cat, they are able to submit a name for that cat. The name is then saved to the database via the back-end server.
