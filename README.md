@@ -4,7 +4,7 @@
 
 ## ➡ Introduction
 This a project where I was tasked with creating a full-stack application over three non-full days.
-So, I decided to make a minimul viable product for a pseudo-game in which you watch, hear, and interact with the cats on the screen.
+So, I decided to make a minimum viable product for a pseudo-game in which you watch, hear, and interact with the cats on the screen.
 This is also my first time making any kind of game, especially one with graphics, as a long-time goal for a passion project. 
 
 ## 🤔 What does the app do? 
