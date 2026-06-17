@@ -14,7 +14,7 @@ This app is for people who either like cats, pixel art, pixel games, simple brow
 * Name the cats yourself with your names being saved and able to be generated at random.
 * Click the cats and hear them make unique sounds like meows, trills, and purrs.
 
-## 💾 Tech stack (you can include logos)
+## 💾 Tech stack
 * Javascript
 * MongoDB
 * HTML5
